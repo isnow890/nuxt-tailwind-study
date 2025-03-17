@@ -19,10 +19,30 @@
     <div class="text-2xl my-6">Font size (Responsive)</div>
 
     <p class="text-base md:text-lg lg:text-xl xl:text-2xl">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eligendi molestiae ipsum
-      consequatur ad aperiam vel officiis sapiente? Eligendi quia, nemo possimus deserunt corrupti
-      qui laudantium eaque officia aperiam nam!
+      This text changes size based on screen width. It starts at base size, becomes larger on medium
+      screens (md: 768px+), even larger on large screens (lg: 1024px+), and largest on extra-large
+      screens (xl: 1280px+).
     </p>
+
+    <div class="mt-4 p-2 bg-gray-100 text-sm">
+      <p>Resize your browser to see the text size change at different breakpoints:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Base: Default size (below 768px)</li>
+        <li>md: 768px and up</li>
+        <li>lg: 1024px and up</li>
+        <li>xl: 1280px and up</li>
+      </ul>
+    </div>
+
+    <div class="mt-4 border-2 border-gray-400 rounded-lg p-2 bg-gray-900 text-white">
+      <p>Resize your browser to see the text size change at different breakpoints:</p>
+      <ul class="list-disc pl-5 mt-2">
+        <li>Base: Default size (below 768px)</li>
+        <li>md: 768px and up</li>
+        <li>lg: 1024px and up</li>
+        <li>xl: 1280px and up</li>
+      </ul>
+    </div>
 
     <div class="text-2xl my-6">Line Height</div>
     <p class="text-sm/6 mb-4">
