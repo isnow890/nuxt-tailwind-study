@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5">
+  <main class="container mx-auto max-w-3xl p-4">
     <div class="text-2xl mb-6">Font size</div>
 
     <p class="text-xs">text-xs</p>
@@ -150,7 +150,7 @@
       <li>Now this is a story all about how, my life got flipped-turned upside down</li>
       <li>Now this is a story all about how, my life got flipped-turned upside down</li>
     </ul>
-  </div>
+  </main>
 </template>
 
 <script lang="ts" setup></script>
